@@ -8,6 +8,7 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     library: "emotion-starter-template",
     libraryTarget: "umd",
+    globalObject: 'this'
   },
   module: {
     rules: [
