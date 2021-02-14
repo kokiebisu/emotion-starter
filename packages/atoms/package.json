@@ -16,7 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "NODE_END=production webpack"
+    "build": "rm -rf dist && NODE_ENV=production webpack"
   },
   "dependencies": {
     "react": "^16.11.0",
