@@ -1,7 +1,13 @@
-import React from "react";
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { jsx } from "theme-ui";
 
-export const Button: React.FC<{ onClick: () => void }> = ({
+export const Button: React.FC<{ onClick?: () => void }> = ({
   onClick = () => alert("button clicked"),
 }) => {
-  return <button onClick={onClick}>button</button>;
+  return (
+    <button sx={{ bg: "red" }} onClick={onClick}>
+      button
+    </button>
+  );
 };

@@ -12,16 +12,19 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "dist"
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
     "react": "^17.0.1",
+    "theme-ui": "^0.3.5",
     "typescript": "^4.1.5"
   },
   "devDependencies": {
-    "@types/react": "^17.0.2"
+    "@types/react": "^17.0.2",
+    "@types/theme-ui": "^0.3.7"
   }
 }
