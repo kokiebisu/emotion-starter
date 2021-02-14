@@ -8,7 +8,7 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     library: "emotion-starter-template",
     libraryTarget: "umd",
-    globalObject: 'this'
+    globalObject: "this",
   },
   module: {
     rules: [
@@ -29,6 +29,7 @@ module.exports = {
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
+    aliasFields: ["module"],
   },
   externals: {
     react: "react",
